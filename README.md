@@ -40,8 +40,9 @@ This project demonstrates an A/B testing setup using React, TypeScript, Redux an
 2. **Image**:  Version B image responds with mouse hover and has soft round corners which improves the UI.
 3. **Ratings**:  Version B represents product ratings which can gain customer trust and can result in increased conversion rate.
 4. **Discount Price**:  Version B and Version A prices are same but Version B allows more customer to consider buying customers using discounted price technique.
-5. **Prominent Button**:  Version B has a prominent large Add to Cart Button with nice color to attract more audiences.
-6. **Stock Information**:  Version B displays stock levels that can create urgency to buy among the customers.
+5. **Stock Information**:  Version B displays stock levels that can create urgency to buy among the customers.
+6. **Prominent Button**:  Version B has a prominent large Add to Cart Button with nice color to attract more audiences.
+
 
 ### Trade-offs
 
