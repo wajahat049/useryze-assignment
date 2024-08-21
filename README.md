@@ -8,12 +8,12 @@ This project demonstrates an A/B testing setup using React, TypeScript, Redux an
 
 ## Features
 
-- **A/B Testing**: Randomly assigns a user to either Version A or Version B of the product card. This assignment is persisted using `redux-persist`.
-- **Configuration-Based Version Assignment**: Allows setting a default version via a configuration file (`config.json`).
-- **Product Card Design**: Two versions of the product card are available:
-  - **Version A**: A basic product card with standard design.
-  - **Version B**: An enhanced product card with additional UX features, including a discount price display.
-- **State Persistence**: The state (assigned version) persists across user sessions, ensuring consistent experience.
+- **A/B Testing**:  Randomly assigns a user to either Version A or Version B of the product card. This assignment is persisted using `redux-persist`.
+- **Configuration-Based Version Assignment**:  Allows setting a default version via a configuration file (`config.json`).
+- **Product Card Design**:  Two versions of the product card are available:
+  - **Version A**:  A basic product card with standard design.
+  - **Version B**:  An enhanced product card with additional UX features, including a discount price display.
+- **State Persistence**:  The state (assigned version) persists across user sessions, ensuring consistent experience.
 
 ## Approach
 
@@ -36,12 +36,12 @@ This project demonstrates an A/B testing setup using React, TypeScript, Redux an
 
 ### Version B Improvements over Version A
 
-1. **Layout**:Version B has a nice good looking display of product cards in a nice layout which persists the customers to stay at the website.
-2. **Image**: Version B image responds with mouse hover and has soft round corners which improves the UI.
-3. **Ratings**: Version B represents product ratings which can gain customer trust and can result in increased conversion rate.
-4. **Discount Price**: Version B and Version A prices are same but Version B allows more customer to consider buying customers using discounted price technique.
-5. **Prominent Button**: Version B has a prominent large Add to Cart Button with nice color to attract more audiences.
-6. **Stock Information**: Version B displays stock levels that can create urgency to buy among the customers.
+1. **Layout**:  Version B has a nice good looking display of product cards in a nice layout which persists the customers to stay at the website.
+2. **Image**:  Version B image responds with mouse hover and has soft round corners which improves the UI.
+3. **Ratings**:  Version B represents product ratings which can gain customer trust and can result in increased conversion rate.
+4. **Discount Price**:  Version B and Version A prices are same but Version B allows more customer to consider buying customers using discounted price technique.
+5. **Prominent Button**:  Version B has a prominent large Add to Cart Button with nice color to attract more audiences.
+6. **Stock Information**:  Version B displays stock levels that can create urgency to buy among the customers.
 
 ### Trade-offs
 
@@ -49,7 +49,7 @@ This project demonstrates an A/B testing setup using React, TypeScript, Redux an
 
 ### Enhancements
 
-- **Dynamic toggle**: Using a `config.json` file makes it easy to manage the version settings. If this value is provided, it is used to set the version for all users. Possible values are null, "A" and "B".
+- **Dynamic toggle**:  Using a `config.json` file makes it easy to manage the version settings. If this value is provided, it is used to set the version for all users. Possible values are null, "A" and "B".
 - **Note**: Make sure to delete the `persist:root` key in the Application Section of `Inspect` under `Local storage`, if you want to see changes on the same browser window.
 
 ## Running the Project Locally
