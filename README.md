@@ -50,6 +50,7 @@ This project demonstrates an A/B testing setup using React, TypeScript, Redux an
 ### Enhancements
 
 - **Dynamic toggle**: Using a `config.json` file makes it easy to manage the version settings. If this value is provided, it is used to set the version for all users. Possible values are null, "A" and "B".
+  **Note**: Make sure to delete the "persist:root" key in the Application Section of "Inspect" under "Local storage", if you want to see changes on the same browser window.
 
 ## Running the Project Locally
 
