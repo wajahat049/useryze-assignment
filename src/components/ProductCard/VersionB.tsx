@@ -26,6 +26,7 @@ const ProductCardVersionB: React.FC<ProductCardProps> = ({
             ★
           </span>
         ))}
+        <span style={{ marginLeft: "3%" }}>(20)</span>
       </div>
       <div className="product-price-container">
         {oldPrice && (
@@ -33,6 +34,7 @@ const ProductCardVersionB: React.FC<ProductCardProps> = ({
         )}
         <span className="product-price">${price.toFixed(2)}</span>
       </div>
+      <div className="product-stock">Only 10 left in stock!</div>
       <button className="add-to-cart-button">Add to Cart</button>
     </div>
   );
